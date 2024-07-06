@@ -13,13 +13,155 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fffdf3;
 }
-
+/*Propiedades de texto */
 .fiancee h1,
 .nexus h1,
 .fiance h1 {
     font-family: 'MonteCarlo', cursive;
 }
+/*Color del texto */
+.sentence p,
+.fiancee h1,
+.nexus h1,
+.fiance h1,
+.date p {
+    color: #7A2B38;
+}
 
-@media screen and (min-width: 400px) {
-    /* Estilos para pantallas mayores a 400px */
+
+@media screen and (max-width: 600px) {
+    
+    .frame img{
+        width: 100%;
+    }
+
+    .content-logo img{
+        width: 100%;
+    }
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 35%;
+    }
+
+    .sentence p{
+        font-size: 13px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+
+        
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 64px;
+        text-align: center;
+        margin: -2rem;
+    }
+
+    .nexus h1{
+        margin-top: -4rem;
+    }
+
+    .date p{
+        font-size: 11px;
+        text-align: center;
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    
+    .frame img{
+        width: 100%;
+    }
+
+    .content-logo img{
+        width: 100%;
+    }
+
+    .text-container {
+        position: absolute;
+        top: 27%;
+        left: 35%;
+    }
+
+    .sentence p{
+        font-size: 13px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+
+        
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 64px;
+        text-align: center;
+        margin: -2rem;
+    }
+
+    .nexus h1{
+        margin-top: -4rem;
+    }
+
+    .date p{
+        font-size: 11px;
+        text-align: center;
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .frame img{
+        width: 100%;
+    }
+
+    .content-logo img{
+        width: 100%;
+    }
+
+    .text-container {
+        position: absolute;
+        top: 19%;
+        left: 31%;
+        
+    }
+
+    .sentence p{
+        font-size: 11px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+
+        
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 62px;
+        text-align: center;
+        margin: -2rem;
+    }
+
+    .nexus h1{
+        margin-top: -4rem;
+    }
+
+    .date p{
+        font-size: 9px;
+        text-align: center;
+        margin: 1rem;
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
 }
